@@ -1,3 +1,6 @@
+import MixandMatch from "@/components/assets/MatchAndMix";
+import Categories from "@/components/category/category";
+import Hero from "@/components/hero/Hero";
 import Navbar from "@/components/navbar/Navbar";
 import NavbarTop from "@/components/navbar/NavbarTop";
 
@@ -8,6 +11,9 @@ export default function Home() {
     <main className=" bg-slate-600">
       <NavbarTop />
       <Navbar />
+      <Hero />
+      <Categories />
+      <MixandMatch />
     </main>
   );
 }
